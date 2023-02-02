@@ -1,0 +1,54 @@
+/* === Small CSS Reset === */
+*{
+    margin: 0;
+    padding: 0;
+}
+*, *::after, *::before{
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #2eff45, #00f2b5, #00dbff, #00bcff, #4096ff);
+    height: 100vh;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input {
+    border: solid 0.2rem orange;
+    padding: 1rem;
+
+}
+
+button {
+    padding: 0.5rem 2rem;
+    margin: 2rem;
+    font-size: 1.3rem;
+    font-style: sans-serif;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background: none;
+    border: 5px solid mediumslateblue;
+}
+
+button:hover {
+    background: mediumslateblue;
+    border: 5px solid white;
+    color: white;
+}
+
+.good {
+    background: green;
+}
+.good {
+    background: green;
+}
